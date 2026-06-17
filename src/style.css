@@ -518,6 +518,10 @@ h1, h2, h3, h4, h5 {
   margin-bottom: auto;
   padding-top: 2.5rem;
   padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-badge {
@@ -568,6 +572,8 @@ h1, h2, h3, h4, h5 {
   font-size: clamp(1rem, 2vw, 1.15rem);
   color: var(--color-text-light);
   max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.7;
   margin-bottom: 2.5rem;
   opacity: 0; /* GSAP */
@@ -576,6 +582,7 @@ h1, h2, h3, h4, h5 {
 .hero-cta {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 2.5rem;
   opacity: 0; /* GSAP */
@@ -584,6 +591,7 @@ h1, h2, h3, h4, h5 {
 .hero-stats {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1.1rem 1.75rem;
   opacity: 0; /* GSAP */
@@ -592,6 +600,7 @@ h1, h2, h3, h4, h5 {
 .hero-stat {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.2rem;
 }
 
